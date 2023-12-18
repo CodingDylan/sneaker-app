@@ -1,0 +1,189 @@
+body {
+  background-color: gainsboro;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.watchlist--div {
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.watchlist--title {
+  font-family: 'Space Mono', monospace;
+  margin-left: 15px;
+}
+
+.watchlist--products {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  border-radius: 25px;
+  padding-bottom: 30px;
+  overflow-y: hidden;
+  overflow-x:visible;
+}
+.mini--sneaker--box {
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+}
+
+.mini--product--image {
+  padding: 0;
+  font-size: 0;
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.mini--product--title {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.5cm;
+  min-width: 280px;
+  max-height: 20px;
+  text-align: center;
+}
+
+.mini--product--from {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(193, 192, 189);
+  margin: 1px;
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+
+.mini--product--bottom {
+  display:flex;
+  margin-bottom: 30px;
+}
+
+.mini--product--price {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.mini--product--on {
+  display: inline;
+  font-family: 'Space Mono', monospace;
+  font-weight: lighter;
+  color: rgb(193, 192, 189);
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.mini--product--sticker {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+.add--div {
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+}
+
+.add--img {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.add--box {
+  background-color: white;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  height: 80%;
+}
+
+.sneaker--boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.sneaker--box {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.product--image {
+  padding: 0;
+  font-size: 0;
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+
+.product--title {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.5cm;
+  min-width: 280px;
+  max-height: 20px;
+  text-align: center;
+}
+
+.product--from {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(193, 192, 189);
+  margin: 1px;
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+
+.product--bottom {
+  display:flex;
+  margin-bottom: 30px;
+}
+
+.product--price {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.product--on {
+  display: inline;
+  font-family: 'Space Mono', monospace;
+  font-weight: lighter;
+  color: rgb(193, 192, 189);
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.product--sticker {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 120px;
+  height: 50px;
+}
